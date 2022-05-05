@@ -3,10 +3,10 @@ package com.company.almacen;
 import com.company.GenericStack;
 import com.company.util.RobotUtils;
 
-public class robot {
+public class Robot {
     String nombre;
     GenericStack espacioCarga;
-    public robot(){
+    public Robot(){
         nombre= RobotUtils.generarNombreRobot();
         espacioCarga=new GenericStack();
     }
