@@ -36,4 +36,7 @@ public class RobotUtils {
     public static String generarNombreProducto() {
         return NOMBRES_PRODUCTOS[(int) (Math.random() * NOMBRES_PRODUCTOS.length)];
     }
+    public static float generarPrecio() {
+        return (float) (Math.random() * 30);
+    }
 }

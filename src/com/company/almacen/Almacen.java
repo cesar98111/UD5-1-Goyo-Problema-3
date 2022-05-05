@@ -5,7 +5,11 @@ import com.company.GenericQueue;
 public class Almacen {
     String nombre;
     GenericQueue colaRobots;
-    public Almacen(){
+    public Almacen(String nombre){
+        colaRobots = new GenericQueue<Robot>();
+        this.nombre = nombre;
+    }
+    public void atenderRobot(){
 
     }
 }

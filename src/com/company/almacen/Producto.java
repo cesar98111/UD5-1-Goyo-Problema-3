@@ -8,7 +8,7 @@ public class Producto {
     float precio;
     public Producto(){
         nombre= RobotUtils.generarNombreProducto();
-        precio=3;
+        precio=RobotUtils.generarPrecio();
     }
 
     @Override
