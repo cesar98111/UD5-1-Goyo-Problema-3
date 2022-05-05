@@ -1,6 +1,6 @@
 package com.company.almacen;
 
-import com.company.GenericStack;
+import com.company.dataestructure.GenericStack;
 import com.company.util.RobotUtils;
 
 public class Robot {
@@ -20,5 +20,10 @@ public class Robot {
         for (int i = 0; i < ESPACIO; i++) {
             System.out.println(espacioCarga.pop());
         }
+    }
+
+    @Override
+    public String toString() {
+        return nombre +"con \n";
     }
 }

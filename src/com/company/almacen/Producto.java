@@ -1,6 +1,6 @@
 package com.company.almacen;
 
-import com.company.GenericStack;
+
 import com.company.util.RobotUtils;
 
 public class Producto {

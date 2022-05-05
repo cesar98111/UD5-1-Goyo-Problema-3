@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dataestructure;
 
 public class GenericCollection <T>{
     private Object data [] = null;

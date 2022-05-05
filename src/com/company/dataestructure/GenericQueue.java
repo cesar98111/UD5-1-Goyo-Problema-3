@@ -1,6 +1,6 @@
-package com.company;
+package com.company.dataestructure;
 
-import com.company.GenericCollection;
+
 
 public class GenericQueue <T>{
     private static final int CAPACIDAD_INICIAL =5;
